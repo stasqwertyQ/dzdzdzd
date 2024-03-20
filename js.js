@@ -24,6 +24,12 @@ function clearBoxes() {
     boxesContainer.innerHTML = '';
 }
 
+
+  function destroyBoxes() {
+    boxesContainer.innerHTML = '';
+  }
+
+
 function getRandomColor() {
     const r = Math.floor(Math.random() * 256);
     const g = Math.floor(Math.random() * 256);
